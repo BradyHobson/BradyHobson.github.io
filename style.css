@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc;
+    color: #333;
+  }
+  
+  
+  header {
+    background-color: #0b3d91;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+  }
+  
+  
+  nav {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+  }
+  
+  nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #0b3d91;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Profile Section */
+  .profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  /* Bio Text */
+  .bio {
+    flex: 1;
+  }
+  
+  /* Resume Link */
+  .resume {
+    margin-top: 1rem;
+  }
+  
+  .resume a {
+    color: #0b3d91;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .resume a:hover {
+    text-decoration: underline;
+  }
+  
+  .contact_imgs {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .contact_imgs:hover {
+    box-shadow: 0 0 4px 2px rgba(0, 140, 186, 0.5);
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color: #eee;
+  }
+  
+  .contact-icons {
+    display: flex;
+    justify-content: center;      
+    gap: 2rem;        
+    flex-wrap: wrap;        
+    margin-top: 1rem;
+  }
+  
+  
